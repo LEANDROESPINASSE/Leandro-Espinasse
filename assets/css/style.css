@@ -65,7 +65,7 @@ section {
 /* Main Title */
 .page-title {
 	text-shadow: 2px 2px 2px black;
-	font-size: 4.925rem;
+	font-size: 5.925rem;
 }
 
 .page-title1 {
@@ -553,13 +553,13 @@ footer .social-icons a:hover {
 /* Media Queries */
 @media (max-width: 480px) {
 	.page-title {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	h2 {
-		font-size: 1.25rem;
+		font-size: 1.5rem;
 	}
 	.nav-link {
-		font-size: 1.8rem;
+		font-size: 2rem;
 	}
 	.nav-tgl {
 		width: 60px;
@@ -569,10 +569,10 @@ footer .social-icons a:hover {
 
 @media (min-width: 481px) and (max-width: 768px) {
 	.page-title {
-		font-size: 5rem;
+		font-size: 4rem;
 	}
 	h2 {
-		font-size: 1.4rem;
+		font-size: 1rem;
 	}
 	.nav-link {
 		font-size: 2.2rem;
@@ -594,10 +594,10 @@ footer .social-icons a:hover {
 
 @media (min-height: 334px) and (max-height: 500px) {
 	.page-title {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	h2 {
-		font-size: 1rem;
+		font-size: 0.5rem;
 	}
 	.nav-link {
 		font-size: 1.5rem;
@@ -624,7 +624,7 @@ footer .social-icons a:hover {
 
 @media (min-height: 300px) and (max-height: 333px) {
 	.page-title {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	h2 {
 		font-size: 1rem;
