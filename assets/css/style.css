@@ -66,7 +66,12 @@ section {
 .page-title {
 	text-shadow: 2px 2px 2px black;
 	font-size: 5.625rem;
+}
 
+.page-title1 {
+	text-shadow: 1px 1px 1px rgb(77, 77, 77);
+	font-size: 2rem;
+	font-weight: 550;
 }
 
 #background-content {
@@ -138,6 +143,10 @@ section {
 	display: block;
 	width: 20vh;
 	height: auto;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.21);
+	border-radius: 4%;
 }
 
 .page-wrapper header .logo a img {
@@ -154,10 +163,10 @@ footer {
 }
 
 footer .social-icons a {
-	color: white;
-	padding: .3125rem .625rem;
+	text-shadow: 1px 1px 2px rgb(77, 77, 77);
+	padding: .3125rem .825rem;
 	display: inline-block;
-	font-size: 2.125rem;
+	font-size: 2.625rem;
 }
 
 footer .social-icons a:hover {
@@ -192,12 +201,13 @@ footer .social-icons a:hover {
 }
 
 .modal-dialog .modal-content h2 {
-	font-size: 2.25rem;
+	text-shadow: 1px 1px 1px rgb(77, 77, 77);
+	font-size: 3.25rem;
 	font-weight: bold;
 }
 
 .modal-dialog .modal-content h3 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	margin-bottom: 1.875rem;
 }
 
@@ -206,13 +216,13 @@ footer .social-icons a:hover {
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	padding: 4.0625rem 2.8125rem;
-	color: w;
 	background-color: #5E7FA6;
 }
 
 .modal-dialog .modal-content .modal-header .close {
 	opacity: 1;
-	background-color: #fff;
+	color: #9b9b9b;
+	background-color: #333333;
 	padding: .625rem .875rem;
 	position: absolute;
 	top: 0;
@@ -378,7 +388,7 @@ footer .social-icons a:hover {
 	border: none;
 	border-radius: 50%;
 	padding: 0;
-	background: #fff;
+	background: #333333;
 	box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.24);
 	line-height: 0.6;
 	text-align: center;
@@ -389,7 +399,7 @@ footer .social-icons a:hover {
 	height: 2px;
 	width: 34px;
 	border-radius: 1px;
-	background: #293335;
+	background: #9b9b9b;
 	vertical-align: middle;
 }
 .nav-tgl > span:before, .nav-tgl > span:after {
@@ -398,7 +408,7 @@ footer .social-icons a:hover {
 	content: "";
 	height: 2px;
 	border-radius: 1px;
-	background: #293335;
+	background: #9b9b9b;
 	transition: all 200ms;
 }
 .nav-tgl > span:before {
