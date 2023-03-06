@@ -171,6 +171,7 @@ footer .social-icons a {
 
 footer .social-icons a:hover {
 	opacity: 1;
+	transform: translateY(-8px);
 }
 
 /* Modal */
@@ -399,7 +400,7 @@ footer .social-icons a:hover {
 	height: 2px;
 	width: 34px;
 	border-radius: 1px;
-	background: #9b9b9b;
+	background: #ffffff;
 	vertical-align: middle;
 }
 .nav-tgl > span:before, .nav-tgl > span:after {
@@ -408,7 +409,7 @@ footer .social-icons a:hover {
 	content: "";
 	height: 2px;
 	border-radius: 1px;
-	background: #9b9b9b;
+	background: #ffffff;
 	transition: all 200ms;
 }
 .nav-tgl > span:before {
@@ -515,13 +516,14 @@ footer .social-icons a:hover {
 .nav .footer .social-icons a {
 	opacity: .7;
 	color: #FFFFFF;
-	padding: .3125rem .625rem;
+	padding: .3125rem .825rem;
 	display: inline-block;
-	font-size: 1.125rem;
+	font-size: 2.625rem;
 }
 
 .nav .footer .social-icons a:hover {
 	opacity: 1;
+	transform: translateY(-8px);
 }
 
 /* Menu */
