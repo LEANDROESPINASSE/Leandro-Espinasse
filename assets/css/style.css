@@ -376,6 +376,16 @@ footer .social-icons a:hover {
 	background-size: cover;
 }
 
+.project4 .wrapper {
+	background: url("../img/alespi1.png") no-repeat;
+	background-size: cover;
+}
+
+.project5 .wrapper {
+	background: url("../img/dona.png") no-repeat;
+	background-size: cover;
+}
+
 /* Nav Toggle */
 .nav-tgl {
 	display: inline-block;
